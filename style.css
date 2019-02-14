@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    
+
+}
+.navbar{
+    background-color:black;
+}
+
+ul.navContainer{
+    margin: 0;
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+
+}
+li{
+    font-size: 1.25em;
+    color: white;
+    padding: 5px;
+    
+}
+
+a {
+    color : inherit;
+    text-decoration: none;   
+}
+
+li:hover {
+    color: purple;
+    background-color: gray;
+}
+
+.intro{
+    display: flex;
+    background-color: beige;
+}
+
+.intro-2{
+}
+
+.skills{
+    text-align: center;
+}
+
+.Projects{
+    text-align: center;
+}
+
+.fab fa-js-square{
+    height: 200 px;
+}
